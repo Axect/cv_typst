@@ -1,3 +1,5 @@
+#import "@preview/fontawesome:0.4.0": *
+
 #let yonsei = rgb(0, 32, 91)
 
 #set text(font: "IBM Plex Sans", stretch:75%)
@@ -16,7 +18,7 @@
 }
 
 #let talk(title) = {
-  text(rgb("#481C7B"), weight: "medium", style: "italic")[#title]
+  text(maroon, weight: "medium", style: "italic")[#title]
 }
 
 = Tae-Geun Kim
@@ -29,9 +31,9 @@
     _Seoul, 03722, Republic of Korea_
   ],
   align(right)[
-    #text(yonsei)[Email]: #link("mailto:tg.kim@yonsei.ac.kr")[`tg.kim@yonsei.ac.kr`] \
-    #text(yonsei)[Github]:#hide("123") #link("https://github.com/Axect")[`github.com/Axect`] \
-    #text(yonsei)[URL]:#hide("1234") #link("https://axect.github.io")[`axect.github.io`]
+    #text(yonsei)[#fa-icon("envelope", solid:true)#h(0.75em)]: #link("mailto:tg.kim@yonsei.ac.kr")[`tg.kim@yonsei.ac.kr`] \
+    #text(yonsei)[#fa-icon("github", solid:true)#h(0.6em)]:#hide("123") #link("https://github.com/Axect")[`github.com/Axect`] \
+    #text(yonsei)[#fa-icon("house", solid:true)#h(0.55em)]:#hide("1234") #link("https://axect.github.io")[`axect.github.io`]
   ]
 )
 \
@@ -98,6 +100,13 @@
 
 #grid(columns: (0.075fr, 0.925fr),
     align(left)[
+        2023 \
+        \
+        \
+        \
+        2022 \
+        \
+        \
         2022 \
         \
         \
@@ -107,6 +116,12 @@
         2019 \
     ],
     align(left)[
+        #talk()["Exploration of PBHs and ALPs through a novel decay model on cosmological scale"] \
+        at _27th International Summer Institute on Phenomenology of Elementary Particle Physics and Cosmology_, Nantou, Taiwan \
+        \
+        #talk()["Exploration of PBHs and ALPs through a novel decay model on cosmological scale"] \
+        at _16th International Conference on Interconnections between Particle Physics and Cosmology_, Dajeon, Korea \
+        \
         #talk()["Constraining ALPs via PBH with time-varying decay process"] \
         at _Workshop on Physics of Dark Cosmos: dark matter, dark energy, and all_, Busan, Korea \
         \
