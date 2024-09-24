@@ -76,7 +76,7 @@
   - *Numerical Computing:* `peroxide, numpy, scipy, pandas/polars, BLAS/LAPACK, eigen, matlab, mathematica`
   - *Machine Learning:* `pytorch, jax/equinox/optax, wandb, optuna, candle, tensorflow, scikit-learn`
   - *Visualization:* `matplotlib, vegas, ggplot2, plotly`
-  - *High Energy Physics:* `BlackHawk, galprop, madgraph`
+  - *High Energy Physics:* `BlackHawk, galprop, madgraph, root`
   - *Quantum Computing:* `pennylane, qiskit, cirq, rustqip`
   - *Web:* `django, vue, firebase, hugo, zola, elm`
 
@@ -219,34 +219,107 @@
         \
         *Workshop on Dark Universe*, Yonsei BRL, Korea\
         \
-        *AI and Quantum Information for Particle Physics*, KAIST, Korea\
+        *AI and Quantum Information for Particle Physics*, Gwangju, Korea\
         \
-        *27th International Summer Institute on Phenomenology of Elementary Particle Physics and Cosmology*, NCTS, Taiwan\
+        *27th International Summer Institute on Phenomenology of Elementary Particle Physics and Cosmology*, Nantou, Taiwan\
         \
-        *Machine Learning in Particle Theory 2023*, MITP, Germany\
+        *Machine Learning in Particle Theory 2023*, Oppenheim, Germany\
         \
-        *AI and Quantum Information Applications in Fundamental Physics*, KIAS, Korea\
+        *AI and Quantum Information Applications in Fundamental Physics*, Daejeon, Korea\
         \
     ]
 )
 
 #pagebreak()
 
-== Projects
+== Teaching Experience
+#chiline()
+
+#grid(columns: (0.075fr, 0.075fr, 0.075fr, 0.775fr),
+  align(left)[
+      2021\
+      \
+      2020\
+      \
+      \
+      2019\
+      \
+      \
+      2017\
+      \
+  ],
+  align(left)[
+      Spring\
+      \
+      Fall\
+      Spring\
+      \
+      Fall\
+      Spring\
+      \
+      Fall\
+      Spring\
+  ],
+  align(left)[
+      TA\
+      \
+      TA\
+      TA\
+      \
+      TA\
+      TA\
+      \
+      TA\
+      TA\
+  ],
+  align(left)[
+      *Introduction to General Relativity*, PHY4208, Yonsei University, Seoul, Republic of Korea\ 
+      \
+      *Quantum Mechanics (2)*, PHY3102, Yonsei University, Seoul, Republic of Korea\
+      *Quantum Mechanics (1)*, PHY3101, Yonsei University, Seoul, Republic of Korea\
+      \
+      *Quantum Mechanics (2)*, PHY3102, Yonsei University, Seoul, Republic of Korea\
+      *Elementary Particle Physics I*, PHY8050, Yonsei University, Seoul, Republic of Korea\
+      \
+      *Gravity I: General Relativity*, PHY8030, Yonsei University, Seoul, Republic of Korea\
+      *Mathematical Physics (1)*, PHY4205, Yonsei University, Seoul, Republic of Korea
+  ]
+)
+
+#v(0.25cm)
+
+== Remarkable Open Source Projects
 #chiline()
 
 *Peroxide* #h(1fr) Sep. 2018 -- Present
-- Description: Rust comprehensive numeric library
-- Links: #link("https://crates.io")[crates.io], #link("https://github.com/Axect/Peroxide")[github]
-- Used skills: Rust, Cargo, Travis CI, surge.sh, Apache arrow
+- Comprehensive Rust numeric library for linear algebra, numerical analysis, and statistics #h(1fr) #link("https://github.com/Axect/Peroxide")[#fa-icon("star")] #h(0.5em): #hide("421,")504
+- Customizable features for pure Rust, BLAS/LAPACK integration, and plotting capabilities #h(1fr) #link("https://crates.io/crates/peroxide")[#fa-icon("download")] #h(0.5em): 421,472 
+- Includes automatic differentiation, special functions, DataFrame functionality, and various numerical algorithms
 
-*HNumeric* #h(1fr) 2018/05 -- 2018/07
-- Description: Numerical library for Haskell
-- Links: #link("https://hackage.haskell.org/package/HNumeric")[hackage], #link("https://github.com/Axect/HNumeric")[github]
-- Used skills: Haskell, Cabal, Stack
+#v(0.2cm)
 
-*RGE* #h(1fr) 2017/08 -- 2017/10
-- Description: Go & Julia package to solve Renormalization Group Equation
-- Link: #link("https://github.com/Axect/RGE")[github]
-- Used technologies: Go, Julia, Glide
+*Puruspe* #h(1fr) Feb. 2020 -- Present
+- Pure Rust library for special functions with no external dependencies #h(1fr) #link("https://github.com/Axect/Puruspe")[#fa-icon("star")] #h(0.5em): #hide("428,4")14
+- Implements gamma, beta, and error functions, including their regularized and inverse versions #h(1fr) #link("https://crates.io/crates/puruspe")[#fa-icon("download")] #h(0.5em): 428,450
+- Lightweight and efficient implementation ideal for mathematical and scientific computing
 
+#v(0.2cm)
+
+*PyTorch Template* #h(1fr) Aug. 2024 -- Present
+- Flexible PyTorch template for ML experiments with modular structure #h(1fr) #link("https://github.com/Axect/PyTorch-Template")[#fa-icon("star")] #h(0.5em): #hide("123,45")6
+- Supports YAML-based configuration for easy experiment setup and reproducibility
+- Supports multiple random seeds, device selection, and learning rate scheduling for robust experimentation
+
+#v(0.2cm)
+
+*Forger* #h(1fr) Nov. 2023 -- Nov. 2023
+- Reinforcement Learning (RL) library implemented in Rust #h(1fr) #link("https://github.com/Axect/Forger")[#fa-icon("star")] #h(0.5em): #hide("123,45")3
+- Modular design with components for agents, environments, policies, and utilities #h(1fr) #link("https://crates.io/crates/forger")[#fa-icon("download")] #h(0.5em): #hide("12")2,609
+- Framework for creating diverse RL environments, including implementations of Epsilon Greedy Policy and Q-Learning
+
+#v(0.2cm)
+
+*RGE* #h(1fr) Aug. 2017 -- Oct. 2017
+- Go package for solving Renormalization Group Equations with Julia integration for plotting #h(1fr) #link("https://github.com/Axect/RGE")[#fa-icon("star")] #h(0.5em): #hide("123,45")4
+- Modular structure with customizable constants, variables, and beta functions for flexible RGE implementation
+- Supports numerical integration methods and parallel processing for efficient computation
