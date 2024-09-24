@@ -46,6 +46,13 @@
 *Astronomy*, _Yonsei University, Seoul, Republic of Korea_ #h(1fr) Mar. 2012 -- Feb. 2017 \
 #h(1fr) *B.S.* \
 
+== Military Service
+#chiline()
+
+*Technical Research Personnel*, Yonsei University, Seoul, Republic of Korea #h(1fr) Sep. 2022 - Aug. 2025
+
+#v(0.25cm)
+
 == Research Areas & Expertise
 #chiline()
 
