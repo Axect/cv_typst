@@ -28,7 +28,7 @@
   columns: (1fr, 1fr),
   align(left)[
     Department of Physics, Yonsei University \
-    _Seoul, 03722, Republic of Korea_
+    Seoul, 03722, Republic of Korea
   ],
   align(right)[
     #text(yonsei)[#fa-icon("envelope", solid:true)#h(0.75em)]: #link("mailto:tg.kim@yonsei.ac.kr")[`tg.kim@yonsei.ac.kr`] \
