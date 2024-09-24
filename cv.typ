@@ -321,6 +321,12 @@
 
 #v(0.2cm)
 
+*Quantum Algorithms* #h(1fr) Dec. 2023 -- Jun. 2024
+- Implement quantum algorithms in Pennylane, RustQIP, Qiskit and Cirq #h(1fr) #link("https://github.com/Axect/QuantumAlgorithms")[#fa-icon("star")] #h(0.5em): #hide("123,45")5
+- Provide jupyter notebooks for quantum algorithms with detailed descriptions and interactive visualizations
+
+#v(0.2cm)
+
 *Radient* #h(1fr) Nov. 2023 -- Dec. 2023
 - Rust library for automatic differentiation using computational graphs #h(1fr) #link("https://github.com/Axect/Radient")[#fa-icon("star")] #h(0.5em): #hide("123,45")2
 - Implements forward and backward propagation for gradient computation #h(1fr) #link("https://crates.io/crates/radient")[#fa-icon("download")] #h(0.5em): #hide("12")1,097
@@ -332,12 +338,6 @@
 - Reinforcement Learning (RL) library implemented in Rust #h(1fr) #link("https://github.com/Axect/Forger")[#fa-icon("star")] #h(0.5em): #hide("123,45")3
 - Modular design with components for agents, environments, policies, and utilities #h(1fr) #link("https://crates.io/crates/forger")[#fa-icon("download")] #h(0.5em): #hide("12")2,609
 - Framework for creating diverse RL environments, including implementations of Epsilon Greedy Policy and Q-Learning
-
-#v(0.2cm)
-
-*Quantum Algorithms* #h(1fr) Dec. 2023 -- Jun. 2024
-- Implement quantum algorithms in Pennylane, RustQIP, Qiskit and Cirq #h(1fr) #link("https://github.com/Axect/QuantumAlgorithms")[#fa-icon("star")] #h(0.5em): #hide("123,45")5
-- Provide jupyter notebooks for quantum algorithms with detailed descriptions and interactive visualizations
 
 #v(0.2cm)
 
