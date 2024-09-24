@@ -49,7 +49,7 @@
 == Military Service
 #chiline()
 
-*Technical Research Personnel*, Yonsei University, Seoul, Republic of Korea #h(1fr) Sep. 2022 - Aug. 2025
+*Technical Research Personnel*, _Yonsei University, Seoul, Republic of Korea_ #h(1fr) Sep. 2022 - Aug. 2025
 
 #v(0.25cm)
 
@@ -111,6 +111,7 @@
         2023\
         \
         \
+        \
         2022\
         \
         \
@@ -123,7 +124,7 @@
         #journal()["HyperbolicLR: Epoch insensitive learning rate scheduler"], T.-G. Kim, [#link("https://arxiv.org/abs/2407.15200")[`2407.15200`]]
         \
         \
-        #journal()["Unsupervised sequence-to-sequence learning for automatic signal quality assessment in multi-channel electrical impedance-based hemodynamic monitoring"], #link("https://doi.org/10.1016/j.cmpb.2024.108079")[_Comput. Meth. Prog. Bio. 108079_], [#link("https://arxiv.org/abs/2305.09368")[`2305.09368`]]
+        #journal()["Unsupervised sequence-to-sequence learning for automatic signal quality assessment in multi-channel electrical impedance-based hemodynamic monitoring"], C. M. Hyun, T.-G. Kim, K. Lee, #link("https://doi.org/10.1016/j.cmpb.2024.108079")[_Comput. Meth. Prog. Bio. 108079_], [#link("https://arxiv.org/abs/2305.09368")[`2305.09368`]]
         \
         \
         #journal()["DeeLeMa: Missing information search with Deep Learning for Mass estimation"], K. Ban, D. W. Kang, T.-G. Kim, S. C. Park, Y. Park, #link("https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.043186")[_Phys. Rev. Res. 5. 043186_], [#link("https://arxiv.org/abs/2212.12836")[`2212.12836`]]
@@ -143,7 +144,6 @@
         2023 \
         \
         \
-        \
         2022 \
         \
         \
@@ -154,24 +154,22 @@
         \
         \
         2019 \
-        \
     ],
     align(left)[
-        #talk()["Exploration of PBHs and ALPs through a novel decay model on cosmological scale"] \
+        #talk()["Exploration of PBHs and ALPs through a novel decay model on cosmological scale"]
         at _27th International Summer Institute on Phenomenology of Elementary Particle Physics and Cosmology_, Nantou, Taiwan \
         \
-        #talk()["Exploration of PBHs and ALPs through a novel decay model on cosmological scale"] \
+        #talk()["Exploration of PBHs and ALPs through a novel decay model on cosmological scale"]
         at _16th International Conference on Interconnections between Particle Physics and Cosmology_, Daejeon, Korea \
         \
-        #talk()["Constraining ALPs via PBH with time-varying decay process"] \
+        #talk()["Constraining ALPs via PBH with time-varying decay process"]
         at _Workshop on Physics of Dark Cosmos: dark matter, dark energy, and all_, Busan, Korea \
         \
-        #talk()["Constraining ALPs via PBH with time-varying decay process Part.2"] \
+        #talk()["Constraining ALPs via PBH with time-varying decay process Part.2"]
         at _KPS 70th Anniversary and 2022 Fall Meeting_, Busan, Korea \
         \
-        #talk()["Bird's eye view of Neutron star cooling"] \
+        #talk()["Bird's eye view of Neutron star cooling"] 
         at _16th Saga-Yonsei Joint Workshop_, Saga, Japan \
-        \
     ]
 )
 
@@ -183,6 +181,7 @@
         2024\
         \
         2024\
+        \
         \
         2024\
         \
@@ -203,6 +202,7 @@
         \
         Jul. 9 - 12\
         \
+        \
         Mar. 18 - 22\
         \
         Jan. 16 - 19\
@@ -220,19 +220,19 @@
     align(left)[
         *The 3rd workshop on Symmetry and Structure of the Universe*, JBNU, Korea\
         \
-        *Cosmology workshop on the crossroads of astrophysics and particle physics*, KIAS, Korea\
+        *Cosmology workshop on the crossroads of astrophysics and particle physics*, Hongcheon, Korea\
         \
         *Workshop on Black Holes and Gravitational Waves*, IBS, Korea\
         \
-        *Workshop on Dark Universe*, Yonsei BRL, Korea\
+        *Workshop on Dark Universe*, Yeosu, Korea\
         \
-        *AI and Quantum Information for Particle Physics*, Gwangju, Korea\
+        *AI and Quantum Information for Particle Physics*, KAIST, Korea\
         \
         *27th International Summer Institute on Phenomenology of Elementary Particle Physics and Cosmology*, Nantou, Taiwan\
         \
         *Machine Learning in Particle Theory 2023*, Oppenheim, Germany\
         \
-        *AI and Quantum Information Applications in Fundamental Physics*, Daejeon, Korea\
+        *AI and Quantum Information Applications in Fundamental Physics*, Gwangju, Korea\
         \
     ]
 )
