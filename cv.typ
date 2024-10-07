@@ -301,21 +301,21 @@
 #chiline()
 
 *Peroxide* #h(1fr) Sep. 2018 -- Present
-- Comprehensive Rust numeric library for linear algebra, numerical analysis, and statistics #h(1fr) #link("https://github.com/Axect/Peroxide")[#fa-icon("star")] #h(0.5em): #hide("421,")504
-- Customizable features for pure Rust, BLAS/LAPACK integration, and plotting capabilities #h(1fr) #link("https://crates.io/crates/peroxide")[#fa-icon("download")] #h(0.5em): 421,472 
+- Comprehensive Rust numeric library for linear algebra, numerical analysis, and statistics #h(1fr) #link("https://github.com/Axect/Peroxide")[#fa-icon("star")] #h(0.5em): #hide("421,")509
+- Customizable features for pure Rust, BLAS/LAPACK integration, and plotting capabilities #h(1fr) #link("https://crates.io/crates/peroxide")[#fa-icon("download")] #h(0.5em): 445,676
 - Includes automatic differentiation, special functions, DataFrame functionality, and various numerical algorithms
 
 #v(0.2cm)
 
 *Puruspe* #h(1fr) Feb. 2020 -- Present
 - Pure Rust library for special functions with no external dependencies #h(1fr) #link("https://github.com/Axect/Puruspe")[#fa-icon("star")] #h(0.5em): #hide("428,4")14
-- Implements gamma, beta, and error functions, including their regularized and inverse versions #h(1fr) #link("https://crates.io/crates/puruspe")[#fa-icon("download")] #h(0.5em): 428,450
+- Implements gamma, beta, and error functions, including their regularized and inverse versions #h(1fr) #link("https://crates.io/crates/puruspe")[#fa-icon("download")] #h(0.5em): 444,079
 - Lightweight and efficient implementation ideal for mathematical and scientific computing
 
 #v(0.2cm)
 
 *PyTorch Template* #h(1fr) Aug. 2024 -- Present
-- Flexible PyTorch template for ML experiments with modular structure #h(1fr) #link("https://github.com/Axect/PyTorch-Template")[#fa-icon("star")] #h(0.5em): #hide("123,45")6
+- Flexible PyTorch template for ML experiments with modular structure #h(1fr) #link("https://github.com/Axect/PyTorch-Template")[#fa-icon("star")] #h(0.5em): #hide("123,45")7
 - Supports YAML-based configuration for easy experiment setup and reproducibility
 - Supports multiple random seeds, device selection, and learning rate scheduling for robust experimentation
 
@@ -329,14 +329,14 @@
 
 *Radient* #h(1fr) Nov. 2023 -- Dec. 2023
 - Rust library for automatic differentiation using computational graphs #h(1fr) #link("https://github.com/Axect/Radient")[#fa-icon("star")] #h(0.5em): #hide("123,45")2
-- Implements forward and backward propagation for gradient computation #h(1fr) #link("https://crates.io/crates/radient")[#fa-icon("download")] #h(0.5em): #hide("12")1,097
+- Implements forward and backward propagation for gradient computation #h(1fr) #link("https://crates.io/crates/radient")[#fa-icon("download")] #h(0.5em): #hide("12")1,366
 - Supports various mathematical operations and provides flexible gradient calculation options
 
 #v(0.2cm)
 
 *Forger* #h(1fr) Nov. 2023 -- Nov. 2023
 - Reinforcement Learning (RL) library implemented in Rust #h(1fr) #link("https://github.com/Axect/Forger")[#fa-icon("star")] #h(0.5em): #hide("123,45")3
-- Modular design with components for agents, environments, policies, and utilities #h(1fr) #link("https://crates.io/crates/forger")[#fa-icon("download")] #h(0.5em): #hide("12")2,609
+- Modular design with components for agents, environments, policies, and utilities #h(1fr) #link("https://crates.io/crates/forger")[#fa-icon("download")] #h(0.5em): #hide("12")2,850
 - Framework for creating diverse RL environments, including implementations of Epsilon Greedy Policy and Q-Learning
 
 #v(0.2cm)
