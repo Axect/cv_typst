@@ -118,7 +118,7 @@
         2022\
     ],
     align(left)[
-        #journal()["Neural Hamilton"], T.-G. Kim, S. C. Park, [`2409.XXXXX`]
+        #journal()["Neural Hamilton"], T.-G. Kim, S. C. Park, [`2410.XXXXX`]
         \
         \
         #journal()["HyperbolicLR: Epoch insensitive learning rate scheduler"], T.-G. Kim, [#link("https://arxiv.org/abs/2407.15200")[`2407.15200`]]
