@@ -42,6 +42,15 @@
   ]
 )
 
+== Appointments
+#chiline()
+
+*Fudan--RIKEN Joint Postdoctoral Fellow* #h(1fr) Nov. 2025 -- Present \
+_Key Laboratory of Nuclear Physics and Ion-beam Application (MOE), Fudan University_, Shanghai, China; \
+_RIKEN Center for Interdisciplinary Theoretical and Mathematical Sciences (iTHEMS)_, Wako, Japan
+
+#v(0.25cm)
+
 == Education
 #chiline()
 
@@ -98,12 +107,13 @@ Thesis: _Intercommunication between Artificial Intelligence and Physics_ (Superv
 == Honors & Fellowships
 #chiline()
 
+- APS DCOMP Travel/Registration Award, APS Division of Computational Physics, CCP2026 (2026)
 - Shanghai Superpostdoc Fellowship, Shanghai Municipal Government (2025-2027)
 - Fudan Superpostdoc Fellowship, Fudan University (2025-2027)
 - Academy Research Fellowship, Yonsei University (2022-2023)
 - Best Oral Presentation Award, KPS 70th Anniversary and 2022 Fall Meeting (2022)
 
-#pagebreak()
+#v(0.25cm)
 
 == Publications
 #chiline()
@@ -111,6 +121,8 @@ Thesis: _Intercommunication between Artificial Intelligence and Physics_ (Superv
 #grid(
     columns: (0.075fr, 0.925fr),
     align(left)[
+        2026\
+        \
         2026\
         \
         \
@@ -130,34 +142,86 @@ Thesis: _Intercommunication between Artificial Intelligence and Physics_ (Superv
         \
     ],
     align(left)[
-        #journal()["Primordial Black Holes as a Factory of Axions: Extragalactic Photons from Axions"], T.-G. Kim, J.-C. Park, S. C. Park, Y. Park, #link("https://doi.org/10.1093/ptep/ptag011")[_Prog. Theor. Exp. Phys. ptag011_], [#link("https://arxiv.org/abs/2212.11977")[`2212.11977`]]
+        #journal()["Peroxide: A Batteries-Included Numerical Computing Library for Rust"], *T.-G. Kim*, G. Comitini, J. Grage, B. Joens, M. Schreiber, et al., #link("https://doi.org/10.21105/joss.10366")[_J. Open Source Software_ *11*, 10366]
+        \
+        #journal()["Primordial Black Holes as a Factory of Axions: Extragalactic Photons from Axions"], Y. Jho#super[\*], *T.-G. Kim*#super[\*], J.-C. Park#super[\*], S. C. Park#super[\*], Y. Park#super[\*], #link("https://doi.org/10.1093/ptep/ptag011")[_Prog. Theor. Exp. Phys._ *2026*, 023B07], [#link("https://arxiv.org/abs/2212.11977")[`2212.11977`]]
         \
         \
-        #journal()["Learning Hamiltonian Dynamics with Bayesian Data Assimilation"], T. Kim, T.-G. Kim, A. Girard, I. Kolmanovsky, [#link("https://arxiv.org/abs/2501.18808")[`2501.18808`]]
+        #journal()["Learning Unknown Gravitational Fields for Spacecraft Trajectory Prediction and Estimation"], T. Kim#super[\*], *T.-G. Kim*#super[\*], A. Girard, I. Kolmanovsky, Under Review, [#link("https://arxiv.org/abs/2501.18808")[`2501.18808`]]
         \
         \
-        #journal()["Neural Hamilton: Can A.I. Understand Hamiltonian Mechanics?"], T.-G. Kim, S. C. Park, [#link("https://arxiv.org/abs/2410.20951")[`2410.20951`]]
+        #journal()["Neural Hamilton: Can A.I. Understand Hamiltonian Mechanics?"], *T.-G. Kim*, S. C. Park, [#link("https://arxiv.org/abs/2410.20951")[`2410.20951`]]
         \
         \
-        #journal()["HyperbolicLR: Epoch insensitive learning rate scheduler"], T.-G. Kim, [#link("https://arxiv.org/abs/2407.15200")[`2407.15200`]]
+        #journal()["HyperbolicLR: Epoch insensitive learning rate scheduler"], *T.-G. Kim*, [#link("https://arxiv.org/abs/2407.15200")[`2407.15200`]]
         \
         \
-        #journal()["Unsupervised sequence-to-sequence learning for automatic signal quality assessment in multi-channel electrical impedance-based hemodynamic monitoring"], C. M. Hyun, T.-G. Kim, K. Lee, #link("https://doi.org/10.1016/j.cmpb.2024.108079")[_Comput. Meth. Prog. Bio. 108079_], [#link("https://arxiv.org/abs/2305.09368")[`2305.09368`]]
+        #journal()["Unsupervised sequence-to-sequence learning for automatic signal quality assessment in multi-channel electrical impedance-based hemodynamic monitoring"], C. M. Hyun#super[\*], *T.-G. Kim*#super[\*], K. Lee, #link("https://doi.org/10.1016/j.cmpb.2024.108079")[_Comput. Meth. Prog. Bio._ *245*, 108079], [#link("https://arxiv.org/abs/2305.09368")[`2305.09368`]]
         \
         \
-        #journal()["DeeLeMa: Missing information search with Deep Learning for Mass estimation"], K. Ban, D. W. Kang, T.-G. Kim, S. C. Park, Y. Park, #link("https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.043186")[_Phys. Rev. Res. 5. 043186_], [#link("https://arxiv.org/abs/2212.12836")[`2212.12836`]]
+        #journal()["Missing information search with Deep Learning for Mass estimation (DeeLeMa)"], K. Ban#super[\*], D. W. Kang#super[\*], *T.-G. Kim*#super[\*], S. C. Park#super[\*], Y. Park#super[\*], #link("https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.043186")[_Phys. Rev. Research_ *5*, 043186], [#link("https://arxiv.org/abs/2212.12836")[`2212.12836`]]
         \
         \
     ]
 )
 
-#v(-0.5em)
+#text(size: 0.85em)[#super[\*] Co-first authors.]
 
-== Talks 
+#v(0.25cm)
+
+== Invited Talks
 #chiline()
 
 #grid(columns: (0.075fr, 0.925fr),
     align(left)[
+      2026\
+      \
+      2026\
+      \
+      2026\
+      \
+      2026\
+      \
+      2025\
+      \
+      \
+      2025\
+      \
+      2025\
+      \
+      2024\
+      \
+    ],
+    align(left)[
+      #talk()["Can you trust your neural sampler?"] at _CCP2026 @ Sejong University_, Seoul, Korea \
+      \
+      #talk()["Can one see the mass of a PBH?"] at _KIAS Seminar_, Seoul, Korea \
+      \
+      #talk()["Neural Inverse Problems and Degeneracy: SMEFT and PBHs"] at _PARTIQAL @ IBS_, Daejeon, Korea \
+      \
+      #talk()["Inverse Problems in High Energy Physics"] at _DEEP-IN Starter Meeting @ RIKEN_, Wako, Japan \
+      \
+      #talk()["From Primordial Black Holes to Nuclei: Solving Inverse
+Problems in Physics with Operator Learning"] at _Nuclear Lunch Seminar @ Fudan University_, Shanghai, China \
+      \
+      #talk()["PBH Phenomenology with Operator Learning"] at _LSSU Seminar \@ JBNU_, Jeonju, Korea \
+      \
+      #talk()["Can A.I. Understand Hamiltonian Mechanics?"] at _DEEP-IN Seminar \@ RIKEN_, Online \
+      \
+      #talk()["Can A.I. Understand Hamiltonian Mechanics?"] at _KIAS_, Seoul, Korea \
+      \
+    ]
+)
+
+#v(0.2em)
+
+== Contributed Talks
+#chiline()
+
+#grid(columns: (0.075fr, 0.925fr),
+    align(left)[
+      2026\
+      \
       2026\
       \
       2025\
@@ -168,19 +232,10 @@ Thesis: _Intercommunication between Artificial Intelligence and Physics_ (Superv
       \
       2025\
       \
-      \
       2025\
       \
       2025\
       \
-      2025\
-      \
-      2025\
-      \
-      2025\
-      \
-      \
-      2024\
       \
       2024\
       \
@@ -191,31 +246,18 @@ Thesis: _Intercommunication between Artificial Intelligence and Physics_ (Superv
       2023 \
       \
       \
-      2022 \
-      \
-      \
-      2022 \
-      \
-      \
-      2022 \
     ],
     align(left)[
-      #talk()["Accelerating PBH Phenomenology via Neural Operators"] at _The 2nd AI+HEP in East Asia @ KEK_, Tsukuba, Japan \
+      #talk()["Can you trust your neural samplers?"] at _AI Agents for Nuclear Physics @ Fudan U._, Shanghai, China \
       \
-      #talk()["From Primordial Black Holes to Nuclei: Solving Inverse
-Problems in Physics with Operator Learning"] at _Nuclear Lunch Seminar @ Fudan University_, Shanghai, China \
+      #talk()["Accelerating PBH Phenomenology via Neural Operators"] at _The 2nd AI+HEP in East Asia @ KEK_, Tsukuba, Japan \
       \
       #talk()["Can AI Understand Hamiltonian Mechanics?"] at _29th International Summer Institute on Phenomenology of Elementary Particle Physics and Cosmology_, Yeosu, Korea \
       \
       #talk()["A Neural Operator for Primordial Black Hole Physics"] at _The 4th workshop on Symmetry and Structure of the Universe_, Jeonju, Korea \
       \
-      #talk()["PBH Phenomenology with Operator Learning"] at _LSSU Seminar \@ JBNU_, Jeonju, Korea \
-      \
       #talk()["AI with Hamiltonian Mechanics: From Predictions to Understanding"]
       at _AI+HEP in East Asia 2025_, Daejeon, Korea \
-      \
-      #talk()["Can A.I. Understand Hamiltonian Mechanics?"]
-      at _DEEP-IN Seminar \@ RIKEN_, Online \
       \
       #talk()["Can A.I. Understand Hamiltonian Mechanics?"]
       at _Dark Matter as a portal to New Physics 2025_, Pohang, Korea \
@@ -227,9 +269,6 @@ Problems in Physics with Operator Learning"] at _Nuclear Lunch Seminar @ Fudan U
       at _2024 Korea-France STAR Workshop_, Seoul, Korea \
       \
       #talk()["Can A.I. Understand Hamiltonian Mechanics?"]
-      at _KIAS_, Seoul, Korea \
-      \
-      #talk()["Can A.I. Understand Hamiltonian Mechanics?"]
       at _21st Saga-Yonsei Joint Workshop_, Seoul, Korea \
       \
       #talk()["Primordial Black Hole dominant Axion background"]
@@ -238,18 +277,10 @@ Problems in Physics with Operator Learning"] at _Nuclear Lunch Seminar @ Fudan U
       #talk()["Exploration of PBHs and ALPs through a novel decay model on cosmological scale"]
       at _27th International Summer Institute on Phenomenology of Elementary Particle Physics and Cosmology_, Nantou, Taiwan \
       \
-      #talk()["Exploration of PBHs and ALPs through a novel decay model on cosmological scale"]
-      at _16th International Conference on Interconnections between Particle Physics and Cosmology_, Daejeon, Korea \
-      \
-      #talk()["Constraining ALPs via PBH with time-varying decay process"]
-      at _Workshop on Physics of Dark Cosmos: dark matter, dark energy, and all_, Busan, Korea \
-      \
-      #talk()["Constraining ALPs via PBH with time-varying decay process Part.2"]
-      at _KPS 70th Anniversary and 2022 Fall Meeting_, Busan, Korea \
     ]
 )
 
-#v(1em)
+#v(0.2em)
 
 == Teaching Experience
 #chiline()
@@ -316,44 +347,45 @@ Problems in Physics with Operator Learning"] at _Nuclear Lunch Seminar @ Fudan U
   ]
 )
 
-#v(1em)
+#v(0.2em)
 
 == Selected Open Source Projects
 #chiline()
 
 *Peroxide* #h(1fr) Sep. 2018 -- Present
-- Comprehensive Rust numeric library for linear algebra, numerical analysis, and statistics #h(1fr) #link("https://github.com/Axect/Peroxide")[#fa-icon("star")] #h(0.4em): #hide("1,421,")665
-- Customizable features for pure Rust, BLAS/LAPACK integration, and plotting capabilities #h(1fr) #link("https://crates.io/crates/peroxide")[#fa-icon("download")] #h(0.5em): 1,014,215
+- Comprehensive Rust numeric library for linear algebra, numerical analysis, and statistics #h(1fr) #link("https://github.com/Axect/Peroxide")[#fa-icon("star")] #h(0.4em): #hide("1,421,")723
+- Customizable features for pure Rust, BLAS/LAPACK integration, and plotting capabilities #h(1fr) #link("https://crates.io/crates/peroxide")[#fa-icon("download")] #h(0.5em): 1,250,135
 - Includes automatic differentiation, special functions, DataFrame functionality, and various numerical algorithms
+- Archived on Zenodo, #link("https://doi.org/10.5281/zenodo.10815823")[`10.5281/zenodo.10815823`]; software paper published in JOSS, #link("https://doi.org/10.21105/joss.10366")[`10.21105/joss.10366`]
 
-#v(0.2cm)
+#v(0.1cm)
 
 *Puruspe* #h(1fr) Feb. 2020 -- Present
-- Pure Rust library for special functions with no external dependencies #h(1fr) #link("https://github.com/Axect/Puruspe")[#fa-icon("star")] #h(0.4em): #hide("1,428,4")25
-- Implements gamma, beta, and error functions, including their regularized and inverse versions #h(1fr) #link("https://crates.io/crates/puruspe")[#fa-icon("download")] #h(0.5em) : #hide("1,")968,211
+- Pure Rust library for special functions with no external dependencies #h(1fr) #link("https://github.com/Axect/Puruspe")[#fa-icon("star")] #h(0.4em): #hide("1,428,4")29
+- Implements gamma, beta, and error functions, including their regularized and inverse versions #h(1fr) #link("https://crates.io/crates/puruspe")[#fa-icon("download")] #h(0.5em) : 1,317,072
 - Lightweight and efficient implementation ideal for mathematical and scientific computing
 
-#v(0.2cm)
+#v(0.1cm)
 
 *PyTorch Template* #h(1fr) Aug. 2024 -- Present
-- Flexible PyTorch template for ML experiments with modular structure #h(1fr) #link("https://github.com/Axect/PyTorch-Template")[#fa-icon("star")] #h(0.4em): #hide("1,123,4")10
+- Flexible PyTorch template for ML experiments with modular structure #h(1fr) #link("https://github.com/Axect/pytorch_template")[#fa-icon("star")] #h(0.4em): #hide("1,123,4")10
 - Supports YAML-based configuration for easy experiment setup and reproducibility
 - Supports multiple random seeds, device selection, and learning rate scheduling for robust experimentation
 
-#v(0.2cm)
+#v(0.1cm)
+
+*Neural Hamilton* #h(1fr) Sep. 2024 -- Present
+- Official implementation of the paper #link("https://arxiv.org/abs/2410.20951")[_Neural Hamilton_] [#link("https://arxiv.org/abs/2410.20951")[`2410.20951`]] #h(1fr) #link("https://github.com/Axect/Neural_Hamilton")[#fa-icon("star")] #h(0.4em): #hide("1,123,4")14
+- Operator-learning architectures (DeepONet, TraONet, VaRONet, MambONet) for Hamilton's equations
+- Rust-based generator for physically plausible potentials via Gaussian random fields and cubic B-splines
+
+#v(0.1cm)
 
 *Quantum Algorithms* #h(1fr) Dec. 2023 -- Jun. 2024
 - Implement quantum algorithms in Pennylane, RustQIP, Qiskit and Cirq #h(1fr) #link("https://github.com/Axect/QuantumAlgorithms")[#fa-icon("star")] #h(0.4em): #hide("1,123,45")7
 - Provide jupyter notebooks for quantum algorithms with detailed descriptions and interactive visualizations
 
-#v(0.2cm)
-
-*Radient* #h(1fr) Nov. 2023 -- Dec. 2023
-- Rust library for automatic differentiation using computational graphs #h(1fr) #link("https://github.com/Axect/Radient")[#fa-icon("star")] #h(0.4em): #hide("1,123,45")4
-- Implements forward and backward propagation for gradient computation #h(1fr) #link("https://crates.io/crates/radient")[#fa-icon("download")] #h(0.5em): #hide("1,12")3,579
-- Supports various mathematical operations and provides flexible gradient calculation options
-
-#v(0.2cm)
+#v(0.1cm)
 
 //*Forger* #h(1fr) Nov. 2023 -- Nov. 2023
 //- Reinforcement Learning (RL) library implemented in Rust #h(1fr) #link("https://github.com/Axect/Forger")[#fa-icon("star")] #h(0.5em): #hide("123,45")3
@@ -366,7 +398,7 @@ Problems in Physics with Operator Learning"] at _Nuclear Lunch Seminar @ Fudan U
 //- Modular structure with customizable constants, variables, and beta functions for flexible RGE implementation
 //- Supports numerical integration methods and parallel processing for efficient computation
 
-#pagebreak()
+#v(0.25cm)
 
 == Study Groups
 #chiline()
