@@ -123,6 +123,7 @@ Thesis: _Intercommunication between Artificial Intelligence and Physics_ (Superv
     align(left)[
         2026\
         \
+        \
         2026\
         \
         \
@@ -143,6 +144,7 @@ Thesis: _Intercommunication between Artificial Intelligence and Physics_ (Superv
     ],
     align(left)[
         #journal()["Peroxide: A Batteries-Included Numerical Computing Library for Rust"], *T.-G. Kim*, G. Comitini, J. Grage, B. Joens, M. Schreiber, et al., #link("https://doi.org/10.21105/joss.10366")[_J. Open Source Software_ *11*, 10366]
+        \
         \
         #journal()["Primordial Black Holes as a Factory of Axions: Extragalactic Photons from Axions"], Y. Jho#super[\*], *T.-G. Kim*#super[\*], J.-C. Park#super[\*], S. C. Park#super[\*], Y. Park#super[\*], #link("https://doi.org/10.1093/ptep/ptag011")[_Prog. Theor. Exp. Phys._ *2026*, 023B07], [#link("https://arxiv.org/abs/2212.11977")[`2212.11977`]]
         \
@@ -213,7 +215,7 @@ Problems in Physics with Operator Learning"] at _Nuclear Lunch Seminar @ Fudan U
     ]
 )
 
-#v(0.2em)
+#pagebreak()
 
 == Contributed Talks
 #chiline()
@@ -358,7 +360,7 @@ Problems in Physics with Operator Learning"] at _Nuclear Lunch Seminar @ Fudan U
 - Includes automatic differentiation, special functions, DataFrame functionality, and various numerical algorithms
 - Archived on Zenodo, #link("https://doi.org/10.5281/zenodo.10815823")[`10.5281/zenodo.10815823`]; software paper published in JOSS, #link("https://doi.org/10.21105/joss.10366")[`10.21105/joss.10366`]
 
-#v(0.1cm)
+#pagebreak()
 
 *Puruspe* #h(1fr) Feb. 2020 -- Present
 - Pure Rust library for special functions with no external dependencies #h(1fr) #link("https://github.com/Axect/Puruspe")[#fa-icon("star")] #h(0.4em): #hide("1,428,4")29
