@@ -10,7 +10,7 @@
  margin: (x: 0.9cm, y: 1.3cm),
  numbering: "1"
 )
-#set par(justify: true)
+#set par(justify: true, leading: 0.55em)
 
 #let chiline() = {v(-3pt); line(length: 100%); v(-5pt)}
 
@@ -47,7 +47,8 @@
 
 *Fudan--RIKEN Joint Postdoctoral Fellow* #h(1fr) Nov. 2025 -- Present \
 _Key Laboratory of Nuclear Physics and Ion-beam Application (MOE), Fudan University_, Shanghai, China; \
-_RIKEN Center for Interdisciplinary Theoretical and Mathematical Sciences (iTHEMS)_, Wako, Japan
+_RIKEN Center for Interdisciplinary Theoretical and Mathematical Sciences (iTHEMS)_, Wako, Japan \
+Supervisors: Prof. Guo-Liang Ma (Fudan University) and Prof. Lingxiao Wang (University of Tokyo / RIKEN iTHEMS)
 
 #v(0.25cm)
 
@@ -71,38 +72,39 @@ Thesis: _Intercommunication between Artificial Intelligence and Physics_ (Superv
 == Research Areas & Expertise
 #chiline()
 
-- *Dark matter physics*
-  - Phenomenology of axion-like particles & primordial black holes
-  - Detectability studies of dark matter candidates using various astrophysical and cosmological probes
-  - Theoretical modeling and simulation of dark matter interactions
+- *Dark Matter Phenomenology*
+  - Primordial black holes, axion-like particles, and their astrophysical photon signals
+  - Connecting particle properties and source populations to observable spectra
 
-- *Machine Learning for Physics*
-  - Development of deep learning models for missing information search and anomaly detection in high-energy physics data
-  - Neural network approaches to learn and emulate complex physical systems and dynamics
-  - Functional and operator learning for solving differential equations and modeling physical phenomena
+- *Inverse Problems & Scientific Machine Learning*
+  - Neural reconstruction of hidden physical quantities, identifiability, and uncertainty quantification
+  - Inverse problems in PBH mass distributions and SMEFT Wilson-coefficient matching
+  - Operator learning for Hamiltonian dynamics; neural dynamics models with Bayesian state estimation
 
-- *Scientific & High Performance Computing*
-  - Design and implementation of efficient numerical algorithms for physics simulations
-  - Optimization of computational methods for large-scale data analysis in astrophysics and particle physics
-  - Development of high-performance software tools for scientific computing, with a focus on Rust-based solutions
-  - Application of parallel computing techniques to accelerate physics computations
+- *Neural Sampling & Statistical Physics*
+  - Autoregressive sampling of equilibrium distributions in discrete lattice models
+  - Representability constraints, generation order, and context requirements in neural samplers
+
+- *Scientific Computing & Research Software*
+  - Numerical algorithms and reusable scientific libraries in Rust and Python
+  - Reproducible training and evaluation pipelines for computational physics
 
 #v(0.25cm)
 
 == Programming Skills & Tools
 #chiline()
 
-- *Primary Languages:* Rust, Python, C++, Julia
+- *Languages:* Python, Rust; C++, Julia
 
 - *Frameworks & Libraries*
-  - *Numerical Computing:* `peroxide, numpy, scipy, pandas/polars, BLAS/LAPACK, eigen, matlab, mathematica`
-  - *Machine Learning:* `pytorch, jax/equinox/optax, wandb, optuna, candle, tensorflow, scikit-learn`
-  - *Visualization:* `matplotlib, vegas, ggplot2, plotly`
-  - *High Energy Physics:* `BlackHawk, galprop, madgraph, root`
-  - *Quantum Computing:* `pennylane, qiskit, cirq, rustqip`
-  - *Web:* `django, vue, firebase, hugo, zola, elm`
+  - *Machine Learning:* `PyTorch, JAX/Equinox/Optax, scikit-learn, Weights & Biases, Optuna`
+  - *Numerical Computing:* `Peroxide, NumPy, SciPy, pandas/Polars, BLAS/LAPACK, Eigen, MATLAB, Mathematica`
+  - *Physics:* `BlackHawk, GALPROP, MadGraph, ROOT`
+  - *Visualization:* `Matplotlib, Vega, ggplot2, Plotly`
+  - *Additional Tools:* `Candle, TensorFlow, PennyLane, Qiskit, Cirq, RustQIP`
+  - *Web:* `Django, Vue, Firebase, Hugo, Zola, Elm`
 
-#v(0.25cm)
+#pagebreak()
 
 == Honors & Fellowships
 #chiline()
@@ -184,6 +186,10 @@ Thesis: _Intercommunication between Artificial Intelligence and Physics_ (Superv
       \
       2026\
       \
+      2026\
+      \
+      2026\
+      \
       2025\
       \
       \
@@ -195,6 +201,10 @@ Thesis: _Intercommunication between Artificial Intelligence and Physics_ (Superv
       \
     ],
     align(left)[
+      #talk()["Can one see the mass of a PBH?"] at _Seminar @ Bielefeld University_, Bielefeld, Germany \
+      \
+      #talk()["Can you trust your neural sampler?"] at _ITP Seminar @ Heidelberg University_, Heidelberg, Germany \
+      \
       #talk()["Can you trust your neural sampler?"] at _CCP2026 @ Sejong University_, Seoul, Korea \
       \
       #talk()["Can one see the mass of a PBH?"] at _KIAS Seminar_, Seoul, Korea \
@@ -226,6 +236,10 @@ Problems in Physics with Operator Learning"] at _Nuclear Lunch Seminar @ Fudan U
       \
       2026\
       \
+      2026\
+      \
+      2026\
+      \
       2025\
       \
       \
@@ -250,6 +264,10 @@ Problems in Physics with Operator Learning"] at _Nuclear Lunch Seminar @ Fudan U
       \
     ],
     align(left)[
+      #talk()["Trustworthy Neural Sampler"] at _ECT\* Workshop_, Trento, Italy \
+      \
+      #talk()["A graph-bandwidth law for context windows in autoregressive samplers"] at _EuCAIFCon 2026_, Heidelberg, Germany \
+      \
       #talk()["Can you trust your neural samplers?"] at _AI Agents for Nuclear Physics @ Fudan U._, Shanghai, China \
       \
       #talk()["Accelerating PBH Phenomenology via Neural Operators"] at _The 2nd AI+HEP in East Asia @ KEK_, Tsukuba, Japan \
@@ -355,8 +373,8 @@ Problems in Physics with Operator Learning"] at _Nuclear Lunch Seminar @ Fudan U
 #chiline()
 
 *Peroxide* #h(1fr) Sep. 2018 -- Present
-- Comprehensive Rust numeric library for linear algebra, numerical analysis, and statistics #h(1fr) #link("https://github.com/Axect/Peroxide")[#fa-icon("star")] #h(0.4em): #hide("1,421,")723
-- Customizable features for pure Rust, BLAS/LAPACK integration, and plotting capabilities #h(1fr) #link("https://crates.io/crates/peroxide")[#fa-icon("download")] #h(0.5em): 1,250,135
+- Rust scientific computing library for linear algebra, numerical analysis, and statistics #h(1fr) #link("https://github.com/Axect/Peroxide")[#fa-icon("star")] #h(0.4em): #hide("1,421,")728
+- Pure-Rust and BLAS/LAPACK backends, with plotting and data-analysis utilities #h(1fr) #link("https://crates.io/crates/peroxide")[#fa-icon("download")] #h(0.5em): 1,337,567
 - Includes automatic differentiation, special functions, DataFrame functionality, and various numerical algorithms
 - Archived on Zenodo, #link("https://doi.org/10.5281/zenodo.10815823")[`10.5281/zenodo.10815823`]; software paper published in JOSS, #link("https://doi.org/10.21105/joss.10366")[`10.21105/joss.10366`]
 
@@ -364,7 +382,7 @@ Problems in Physics with Operator Learning"] at _Nuclear Lunch Seminar @ Fudan U
 
 *Puruspe* #h(1fr) Feb. 2020 -- Present
 - Pure Rust library for special functions with no external dependencies #h(1fr) #link("https://github.com/Axect/Puruspe")[#fa-icon("star")] #h(0.4em): #hide("1,428,4")29
-- Implements gamma, beta, and error functions, including their regularized and inverse versions #h(1fr) #link("https://crates.io/crates/puruspe")[#fa-icon("download")] #h(0.5em) : 1,317,072
+- Implements gamma, beta, and error functions, including their regularized and inverse versions #h(1fr) #link("https://crates.io/crates/puruspe")[#fa-icon("download")] #h(0.5em) : 1,453,595
 - Lightweight and efficient implementation ideal for mathematical and scientific computing
 
 #v(0.1cm)
@@ -379,13 +397,13 @@ Problems in Physics with Operator Learning"] at _Nuclear Lunch Seminar @ Fudan U
 *Neural Hamilton* #h(1fr) Sep. 2024 -- Present
 - Official implementation of the paper #link("https://arxiv.org/abs/2410.20951")[_Neural Hamilton_] [#link("https://arxiv.org/abs/2410.20951")[`2410.20951`]] #h(1fr) #link("https://github.com/Axect/Neural_Hamilton")[#fa-icon("star")] #h(0.4em): #hide("1,123,4")14
 - Operator-learning architectures (DeepONet, TraONet, VaRONet, MambONet) for Hamilton's equations
-- Rust-based generator for physically plausible potentials via Gaussian random fields and cubic B-splines
+- Rust dataset generator using Gaussian random fields and cubic B-splines for potential functions
 
 #v(0.1cm)
 
 *Quantum Algorithms* #h(1fr) Dec. 2023 -- Jun. 2024
-- Implement quantum algorithms in Pennylane, RustQIP, Qiskit and Cirq #h(1fr) #link("https://github.com/Axect/QuantumAlgorithms")[#fa-icon("star")] #h(0.4em): #hide("1,123,45")7
-- Provide jupyter notebooks for quantum algorithms with detailed descriptions and interactive visualizations
+- Implemented quantum algorithms in PennyLane, RustQIP, Qiskit, and Cirq #h(1fr) #link("https://github.com/Axect/QuantumAlgorithms")[#fa-icon("star")] #h(0.4em): #hide("1,123,45")7
+- Created Jupyter notebooks with algorithm explanations and interactive visualizations
 
 #v(0.1cm)
 
@@ -407,26 +425,28 @@ Problems in Physics with Operator Learning"] at _Nuclear Lunch Seminar @ Fudan U
 
 *SYTEARK Machine Learning Study Group* [#link("https://github.com/SYTEARK")[`SYTEARK`]\; #link("https://github.com/SYTEARK/MLStudy")[`MLStudy`], #link("https://github.com/SYTEARK/ML2022")[`ML2022`], #link("https://github.com/SYTEARK/ML2021")[`ML2021`]] #h(1fr) 2019 -- Present
 - Founder and organizer of a machine learning study group for theoretical physics
-- Current participants: 3 High energy physics graduate students, 1 postdoc and 1 A.I. researcher
 - Weekly rotational presentations on machine learning journals, topics, and personal research
 
 #v(0.5em)
 
 *Yonsei Cosmo-Chalk* #link("https://github.com/Yonsei-HEP-COSMO/Yonsei-Cosmo-Chalk")[[`Yonsei Cosmo-Chalk`]] #h(1fr) 2024 -- Mid 2025
 - Co-organizer of the weekly blackboard talks in Yonsei HEP-COSMO.
-- Facilitates research presentations, journal discussions, and collaborative dialogues among group members
-- Fosters a supportive environment for intellectual growth and peer-to-peer learning in high-energy physics and cosmology
+- Organized research presentations, journal discussions, and collaborative exchanges within the group
 
 #v(0.5em)
 
 *ML and QML Study Group* #h(1fr) 2021 -- Mid 2024
 - Participated in study group led by Prof. Myung Hoon Park (Seoultech.) and Prof. Kyoungchul Kong (U. Kansas) at KIAS
-- Study about machine learning and quantum machine learning
+- Studied machine learning and quantum machine learning
 
 #v(1em)
 
 == Services
 #chiline()
+
+*Peer Reviewer* #h(1fr) 2026
+- _APL Computational Physics_
+- _ICML 2026 Workshop on AI for Physics (AI4Physics)_
 
 *Web master for Yonsei HEP-COSMO* #h(1fr) Mar. 2017 -- Aug. 2025
 - Developed and maintained the #link("https://hepcosmo.yonsei.ac.kr")[Yonsei HEP-COSMO website]
