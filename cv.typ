@@ -5,6 +5,7 @@
 #let sans = "Satoshi"
 
 // Master CV. Tailored versions (cv_<call>.typ) are cuts and reorderings of this file, never separate facts.
+// The talk sections list every talk; cv_compact.typ is the 3-page cut with a selected subset.
 // Citizenship (Republic of Korea) goes in a closing Citizenship section only when a call asks for it.
 #set document(title: "Curriculum Vitae", author: "Tae-Geun Kim-Morgen")
 #set page(
@@ -236,7 +237,7 @@ grid(
 )
 })
 
-#section[Selected Invited Talks]
+#section[Invited Talks]
 
 #talk[2026][Can one see the mass of a PBH?][_Seminar \@ Bielefeld University_][Bielefeld, Germany]
 #talk[2026][Can you trust your neural sampler?][_ITP Seminar \@ Heidelberg University_][Heidelberg, Germany]
@@ -247,8 +248,9 @@ grid(
 #talk[2025][From Primordial Black Holes to Nuclei: Solving Inverse Problems in Physics with Operator Learning][_Nuclear Lunch Seminar \@ Fudan University_][Shanghai, China]
 #talk[2025][PBH Phenomenology with Operator Learning][_LSSU Seminar \@ Jeonbuk National University_][Jeonju, Korea]
 #talk[2025][Can A.I. Understand Hamiltonian Mechanics?][_DEEP-IN Seminar \@ RIKEN_][Online]
+#talk[2024][Can A.I. Understand Hamiltonian Mechanics?][_Invited Seminar \@ KIAS_][Seoul, Korea]
 
-#section[Selected Contributed Talks]
+#section[Contributed Talks]
 
 #talk[2026][Interaction Geometry and Hidden Bias in Learning Lattice Spin Systems][_ATHIC 2026_ (parallel talk)][Shanghai, China]
 #talk[2026][Trustworthy Neural Sampler][_ECT\* Workshop_][Trento, Italy]
@@ -258,8 +260,16 @@ grid(
 #talk[2025][Can AI Understand Hamiltonian Mechanics?][_29th International Summer Institute on Phenomenology of Elementary Particle Physics and Cosmology_][Yeosu, Korea]
 #talk[2025][A Neural Operator for Primordial Black Hole Physics][_The 4th Workshop on Symmetry and Structure of the Universe_][Jeonju, Korea]
 #talk[2025][AI with Hamiltonian Mechanics: From Predictions to Understanding][_AI+HEP in East Asia 2025_][Daejeon, Korea]
+#talk[2025][Can A.I. Understand Hamiltonian Mechanics?][_Dark Matter as a Portal to New Physics 2025_][Pohang, Korea]
+#talk[2025][Can A.I. Understand Hamiltonian Mechanics?][_Focused Workshop on AI in High Energy Physics 2025_][Seoul, Korea]
 #talk[2024][Can A.I. Understand Hamiltonian Mechanics?][_2024 Korea-France STAR Workshop_][Seoul, Korea]
+#talk[2024][Can A.I. Understand Hamiltonian Mechanics?][_21st Saga-Yonsei Joint Workshop_][Seoul, Korea]
+#talk[2024][Primordial Black Hole dominant Axion background][_2024 KPS Fall Meeting_][Yeosu, Korea]
+#talk[2023][Exploration of PBHs and ALPs through a novel decay model on cosmological scale][_27th International Summer Institute on Phenomenology of Elementary Particle Physics and Cosmology_ (poster)][Nantou, Taiwan]
+#talk[2022][Exploration of PBHs and ALPs through a novel decay model on cosmological scale][_16th International Conference on Interconnections between Particle Physics and Cosmology_][Daejeon, Korea]
+#talk[2022][Constraining ALPs via PBH with time-varying decay process][_Workshop on Physics of Dark Cosmos: dark matter, dark energy, and all_][Busan, Korea]
 #talk[2022][Constraining ALPs via PBH with time-varying decay process Part.2][_KPS 70th Anniversary and 2022 Fall Meeting_, *Best Oral Presentation Award*][Busan, Korea]
+#talk[2019][Bird's eye view of Neutron star cooling][_16th Saga-Yonsei Joint Workshop_][Saga, Japan]
 
 #section[Teaching]
 
