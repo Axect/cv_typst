@@ -250,6 +250,7 @@ grid(
 
 #section[Selected Contributed Talks]
 
+#talk[2026][Interaction Geometry and Hidden Bias in Learning Lattice Spin Systems][_ATHIC 2026_ (parallel talk)][Shanghai, China]
 #talk[2026][Trustworthy Neural Sampler][_ECT\* Workshop_][Trento, Italy]
 #talk[2026][A graph-bandwidth law for context windows in autoregressive samplers][_EuCAIFCon 2026_ (parallel talk and poster)][Heidelberg, Germany]
 #talk[2026][Can you trust your neural samplers?][_AI Agents for Nuclear Physics \@ Fudan U._][Shanghai, China]
